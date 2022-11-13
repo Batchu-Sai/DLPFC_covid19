@@ -13,7 +13,7 @@ source('Utils.R') # Code modified for figures, original code from spatialLIBD
 setwd("~/Research/COVID19_Spatial_DLPFC/Analysis")
 options(stringsAsFactors=FALSE)
 
-# Download data into folder
+# Fetch data into temporary cache
 
 spe <- fetch_data(type = 'spe', destdir = "~/Research/COVID19_Spatial_DLPFC/Data")
 
